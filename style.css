@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+    font-family: fantasy;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#order {
+    background-color: red;
+}
+.red{
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
