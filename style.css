@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 5, 7);
 }
 
 header {
@@ -65,4 +66,159 @@ header {
     padding: 10px;
     border-radius: 50%;
 }
+.main{
+    width: 100%;
+}
+.main img{
+    width: 100%;
+}
+.box{
+    background-color: black;
+}
+.text{
+    font-family: inter;
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 30px;
+}
+.container{
+     width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top:7%;
+} 
+.card{
+     width: 300px;
+    text-align: center;
+    padding: 5px;
+}
+.card img{
+      width: 100%;
+    height: 160px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card button{
+    gap: 40px;
+     padding: 12px 35px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+button{
+    padding-top: 40px;
+}
+.card button:hover {
+    background: white;
+    color: black;
+}
+
+/* section 4 start */
+/* section 4 part 1 */
+
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.franchise {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 40px;
+    background-color: #ffffff0f;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    text-align: center;
+    
+}
+
+.second-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; 
+    padding: 100px 50px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+font-weight: bold;
+font-size: large;
+font-family: inter;
+
+}
+
+.address button {
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.img img {
+    width: 400px;
+    height: 200px;
+    display: block;
+}
+.city{
+    color: red;
+}
+.red{
+color: white;
+background-color: red;
+border-radius: 50%;
+}
+.address{
+    color: white;
+}
+/* section 4 end */
+
+.branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tchild{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+.bratxt{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.braimg{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
