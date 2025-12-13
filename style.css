@@ -199,7 +199,7 @@ border-radius: 50%;
 .branch{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .tchild{
@@ -211,14 +211,95 @@ border-radius: 50%;
     color: white;
     text-align: center;
     padding-top: 30px;
+    font-size: large;
+    font-family: inter;
 }
 .braimg{
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+
+}
+.braimg button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: cursive;
+}
+h5{
+    color: red;
+    font-size: medium;
+    font-family: inter;
 }
 
+.secsix{
+    padding-top: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.seccon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
 
+}
+.seccon button{
+     outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: cursive;
+}
 
+.secseven{
+    padding-top: 30px;
+}
+.secseven .hcon{
+    color: white;
+    font-size: large;
+    font-family: inter;
+    text-align: center;
+}
+.secchil{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.secchil .svencon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-family: inter;
+    gap: 20px;
+}
+.secchil .svencon button{
+     outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid green;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: cursive;
+}
