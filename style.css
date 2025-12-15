@@ -352,3 +352,52 @@ font-family: futurak;
 .secthimg p{
 color: red;
 }
+/* fooeter */
+.footer{
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #ffffff0f;
+}
+.footerstchild{
+    display: flex;
+    flex-direction: column;
+}
+.footerstimg img{
+    width: 200px;
+
+}
+.footerstimg{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.footerlist ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.footericon button{
+    display: flex;
+    flex-direction: column;
+     outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+}
+
