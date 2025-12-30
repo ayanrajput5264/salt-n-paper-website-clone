@@ -60,22 +60,27 @@ header {
 #order {
     background-color: red;
 }
-.red{
+
+.red {
     color: red;
     background-color: white;
     padding: 10px;
     border-radius: 50%;
 }
-.main{
+
+.main {
     width: 100%;
 }
-.main img{
+
+.main img {
     width: 100%;
 }
-.box{
+
+.box {
     background-color: black;
 }
-.text{
+
+.text {
     font-family: inter;
     color: white;
     font-size: large;
@@ -85,40 +90,46 @@ header {
     gap: 10px;
     padding: 30px 30px;
 }
-.container{
-     width: 95%;
+
+.container {
+    width: 95%;
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-top:7%;
-} 
-.card{
-     width: 300px;
+    margin-top: 7%;
+}
+
+.card {
+    width: 300px;
     text-align: center;
     padding: 5px;
 }
-.card img{
-      width: 100%;
+
+.card img {
+    width: 100%;
     height: 160px;
     background: white;
     padding: 15px;
     border-radius: 10px;
 }
-.card button{
+
+.card button {
     gap: 40px;
-     padding: 12px 35px;
+    padding: 12px 35px;
     border-radius: 50px;
     border: 1px solid white;
     background: black;
     color: white;
     font-size: 15px;
     cursor: pointer;
-   
+
 }
-button{
+
+button {
     padding-top: 40px;
 }
+
 .card button:hover {
     background: white;
     color: black;
@@ -145,26 +156,26 @@ button{
 .content {
     display: flex;
     flex-direction: column;
-    gap: 5px; 
+    gap: 5px;
     text-align: center;
-    
+
 }
 
 .second-child {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px; 
+    gap: 20px;
     padding: 100px 50px;
 }
 
 .address {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
-font-weight: bold;
-font-size: large;
-font-family: inter;
+    gap: 20px;
+    font-weight: bold;
+    font-size: large;
+    font-family: inter;
 
 }
 
@@ -183,38 +194,45 @@ font-family: inter;
     height: 200px;
     display: block;
 }
-.city{
+
+.city {
     color: red;
 }
-.red{
-color: white;
-background-color: red;
-border-radius: 50%;
+
+.red {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
 }
-.address{
+
+.address {
     color: white;
 }
+
 /* section 4 end */
 
-.branch{
+.branch {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.tchild{
+
+.tchild {
     display: flex;
     gap: 30px;
     padding-top: 30px;
 }
-.bratxt{
+
+.bratxt {
     color: white;
     text-align: center;
     padding-top: 30px;
     font-size: large;
     font-family: inter;
 }
-.braimg{
+
+.braimg {
     color: white;
     display: flex;
     flex-direction: column;
@@ -222,7 +240,8 @@ border-radius: 50%;
     gap: 20px;
 
 }
-.braimg button{
+
+.braimg button {
     outline: none;
     border: none;
     background-color: transparent;
@@ -233,13 +252,14 @@ border-radius: 50%;
     cursor: pointer;
     font-family: cursive;
 }
-h5{
+
+h5 {
     color: red;
     font-size: medium;
     font-family: inter;
 }
 
-.secsix{
+.secsix {
     padding-top: 30px;
     background-color: black;
     display: flex;
@@ -249,7 +269,7 @@ h5{
     gap: 30px;
 }
 
-.seccon{
+.seccon {
     color: white;
     display: flex;
     flex-direction: column;
@@ -257,8 +277,9 @@ h5{
     text-align: center;
 
 }
-.seccon button{
-     outline: none;
+
+.seccon button {
+    outline: none;
     border: none;
     background-color: transparent;
     color: white;
@@ -269,21 +290,24 @@ h5{
     font-family: cursive;
 }
 
-.secseven{
+.secseven {
     padding-top: 30px;
 }
-.secseven .hcon{
+
+.secseven .hcon {
     color: white;
     font-size: large;
     font-family: inter;
     text-align: center;
 }
-.secchil{
+
+.secchil {
     padding-top: 30px;
     display: flex;
     gap: 30px;
 }
-.secchil .svencon{
+
+.secchil .svencon {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,8 +316,9 @@ h5{
     font-family: inter;
     gap: 20px;
 }
-.secchil .svencon button{
-     outline: none;
+
+.secchil .svencon button {
+    outline: none;
     border: none;
     background-color: transparent;
     color: white;
@@ -303,43 +328,50 @@ h5{
     cursor: pointer;
     font-family: cursive;
 }
+
 /* futurak font family */
 @font-face {
     font-family: futurak;
     src: url(./fonts/futurak.ttf);
 }
-.fnt{
-font-family: futurak;
+
+.fnt {
+    font-family: futurak;
 
 
 }
+
 /* section 8 start */
-.secth{
+.secth {
     display: flex;
     flex-direction: column;
     padding: 40px 30px;
 }
-.secthcon{
+
+.secthcon {
     color: white;
     text-align: center;
-    padding-top: 30px ;
+    padding-top: 30px;
 }
-.secthchil{
+
+.secthchil {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
-    
+
     gap: 30px;
-    
+
 }
-.secthtchil{
+
+.secthtchil {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 30px;
     padding-top: 30px;
 
 }
-.secthimg{
+
+.secthimg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,11 +381,13 @@ font-family: futurak;
     font-size: x-large;
     font-family: inter;
 }
-.secthimg p{
-color: red;
+
+.secthimg p {
+    color: red;
 }
+
 /* fooeter */
-.footer{
+.footer {
     width: 100%;
     padding: 50px 40px;
     display: flex;
@@ -361,43 +395,63 @@ color: red;
     color: white;
     background-color: #ffffff0f;
 }
-.footerstchild{
+
+.footerstchild {
     display: flex;
     flex-direction: column;
 }
-.footerstimg img{
+
+.footerstimg img {
     width: 200px;
 
 }
-.footerstimg{
+
+.footerstimg {
     display: flex;
     flex-direction: column;
     gap: 15px;
 
 }
-.footerlist{
+
+.footerlist {
     display: flex;
     flex-direction: column;
     gap: 20px;
     list-style: none;
 }
-.footerlist ul{
+
+.footerlist ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
     list-style: none;
 }
-.footericon button{
+
+.footericon button {
     display: flex;
     flex-direction: column;
-     outline: none;
+    outline: none;
     border: none;
     background-color: transparent;
     color: white;
 }
-footer{
+
+footer {
     color: white;
     text-align: center;
     padding: 50px 50px;
+    background-image: url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: 5%;
+
 }
+
+i {
+    display: flex;
+    justify-content: center;
+}
+
+
 
